@@ -9,7 +9,7 @@ import ScrollReveal from '../components/ScrollReveal'
 const contactInfo = [
   { icon: <FiMapPin />, title: 'Visit Us', lines: ['123 Mobile Street', 'Tech City, pakistan 400001'] },
   { icon: <FiPhone />, title: 'Call Us', lines: ['+92 987 43210', '+92 965 43211'] },
-  { icon: <FiMail />, title: 'Email Us', lines: ['hello@mothsinmobiles.com', 'support@mothsinmobiles.com'] },
+  { icon: <FiMail />, title: 'Email Us', lines: ['hello@Mohsinmobiles.com', 'support@Mohsinmobiles.com'] },
   { icon: <FiClock />, title: 'Working Hours', lines: ['Mon – Sat: 10 AM – 9 PM', 'Sunday: 11 AM – 7 PM'] },
 ]
 

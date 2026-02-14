@@ -63,7 +63,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  Mothsin Mobiles started in 2016 as a small mobile accessories shop with a big dream — to make
+                  Mohsin Mobiles started in 2016 as a small mobile accessories shop with a big dream — to make
                   quality technology accessible to everyone. Founded with a passion for cutting-edge mobile
                   technology, we began serving our local community with genuine products and honest pricing.
                 </p>

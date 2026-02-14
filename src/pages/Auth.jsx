@@ -40,7 +40,7 @@ export default function Auth() {
           <p className="text-sm text-muted mt-2">
             {isLogin
               ? 'Sign in to access your account'
-              : 'Join Mothsin Mobiles today'}
+              : 'Join Mohsin Mobiles today'}
           </p>
         </div>
 

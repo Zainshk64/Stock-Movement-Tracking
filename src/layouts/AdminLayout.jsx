@@ -50,7 +50,7 @@ export default function AdminLayout() {
                 <FiSmartphone className="text-white text-lg" />
               </div>
               <div>
-                <p className="text-sm font-bold text-foreground leading-none">Mothsin Mobiles</p>
+                <p className="text-sm font-bold text-foreground leading-none">Mohsin Mobiles</p>
                 <p className="text-xs text-muted mt-0.5">Admin Panel</p>
               </div>
             </Link>

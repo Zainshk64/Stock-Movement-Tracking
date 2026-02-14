@@ -45,7 +45,7 @@ function Navbar() {
               <FiSmartphone className="text-white text-xl" />
             </div>
             <div>
-              <span className="text-lg font-bold text-foreground tracking-tight">Mothsin</span>
+              <span className="text-lg font-bold text-foreground tracking-tight">Mohsin</span>
               <span className="text-lg font-bold text-primary tracking-tight"> Mobiles</span>
             </div>
           </Link>
@@ -170,7 +170,7 @@ function Footer() {
               <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
                 <FiSmartphone className="text-white text-xl" />
               </div>
-              <span className="text-xl font-bold tracking-tight">Mothsin Mobiles</span>
+              <span className="text-xl font-bold tracking-tight">Mohsin Mobiles</span>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-5">
               Your trusted destination for the latest smartphones, tablets, and accessories.
@@ -239,7 +239,7 @@ function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-white/60">
                 <FiMail className="text-primary shrink-0" />
-                <span>hello@mothsinmobiles.com</span>
+                <span>hello@Mohsinmobiles.com</span>
               </li>
             </ul>
           </div>
@@ -250,7 +250,7 @@ function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-white/40">
-            © {new Date().getFullYear()} Mothsin Mobiles. All rights reserved.
+            © {new Date().getFullYear()} Mohsin Mobiles. All rights reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-white/40">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>

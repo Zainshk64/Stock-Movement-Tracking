@@ -45,7 +45,7 @@ export default function Home() {
             >
               <span className="inline-flex items-center gap-2 bg-primary/10 text-primary text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
                 <FiSmartphone className="text-base" />
-                Welcome to Mothsin Mobiles
+                Welcome to Mohsin Mobiles
               </span>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-6">
                 Your Trusted
@@ -101,7 +101,7 @@ export default function Home() {
             <div className="text-center mb-14">
               <span className="text-sm font-semibold text-primary uppercase tracking-wider">Why Choose Us</span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-foreground mt-3">
-                The Mothsin Mobiles Advantage
+                The Mohsin Mobiles Advantage
               </h2>
               <p className="text-muted mt-4 max-w-2xl mx-auto">
                 We go above and beyond to bring you the best mobile experience
