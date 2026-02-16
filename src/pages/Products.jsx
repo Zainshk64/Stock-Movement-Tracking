@@ -38,7 +38,7 @@ export default function Products() {
       </section>
 
       {/* ─── Filters ─── */}
-      {/* <section className="py-8 bg-surface border-b border-border sticky top-16 lg:top-20 z-20">
+      <section className="py-8 bg-surface border-b border-border sticky top-16 lg:top-20 z-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
             <div className="relative flex-1 max-w-md">
@@ -70,10 +70,10 @@ export default function Products() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* ─── Products Grid ─── */}
-      {/* <section className="py-12 lg:py-16">
+      <section className="py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm text-muted mb-8">
             Showing <span className="font-semibold text-foreground">{filtered.length}</span> products
@@ -95,7 +95,7 @@ export default function Products() {
             </div>
           )}
         </div>
-      </section> */}
+      </section>
     </>
   )
 }

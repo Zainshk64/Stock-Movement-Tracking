@@ -57,10 +57,11 @@ export default function ProductDetail() {
               transition={{ duration: 0.5 }}
             >
               <div
-                className="aspect-square rounded-3xl flex items-center justify-center shadow-2xl shadow-primary/10"
+                className="aspect- rounded-3xl flex items-center justify-center shadow-2xl shadow-primary/10"
                 style={{ background: gradient }}
               >
-                <FiShoppingBag className="text-white/25 text-[120px]" />
+                {/* <FiShoppingBag className="text-white/25 text-[120px]" /> */}
+                <img src={product.image} className='h-full w-full rounded-2xl' alt="" />
               </div>
             </motion.div>
 

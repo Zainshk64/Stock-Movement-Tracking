@@ -73,7 +73,7 @@ function Navbar() {
           {/* Desktop Auth */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              to="/"
+              to="/admin"
               className="text-xs text-muted hover:text-primary font-medium transition-colors"
             >
               Admin

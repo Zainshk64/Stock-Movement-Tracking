@@ -16,8 +16,8 @@ export default function ProductCard({ product, index = 0 }) {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      {/* to={`/products/${product.id}`} */}
-      <Link  className="block group">
+      
+      <Link  to={`/products/${product.id}`} className="block group">
         <div className="bg-surface rounded-2xl overflow-hidden border border-border hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300">
           {/* Image placeholder */}
           <div

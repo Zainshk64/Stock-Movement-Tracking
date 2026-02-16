@@ -1,23 +1,26 @@
-import { useEffect } from 'react'
-import { Routes, Route } from 'react-router-dom'
-import Lenis from 'lenis'
+import { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import Lenis from "lenis";
 
-import MainLayout from './layouts/MainLayout'
-import AdminLayout from './layouts/AdminLayout'
+import MainLayout from "./layouts/MainLayout";
+import AdminLayout from "./layouts/AdminLayout";
 
-import Home from './pages/Home'
-import About from './pages/About'
-import Products from './pages/Products'
-import ProductDetail from './pages/ProductDetail'
-import Contact from './pages/Contact'
-import Auth from './pages/Auth'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import ProductDetail from "./pages/ProductDetail";
+import Contact from "./pages/Contact";
+import Auth from "./pages/Auth";
 
-import Dashboard from './pages/admin/Dashboard'
-import AdminProducts from './pages/admin/AdminProducts'
+import Dashboard from "./pages/admin/Dashboard";
+import AdminProducts from "./pages/admin/AdminProducts";
 // import StockManagement from './pages/admin/StockManagement'
 // import SalesReports from './pages/admin/SalesReports'
 
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from "./components/ScrollToTop";
+import NotFound from "./pages/NotFound";
+import StockManagement from "./pages/admin/StockManagement";
+import SalesReports from "./pages/admin/SalesReports";
 
 export default function App() {
   // useEffect(() => {
@@ -45,14 +48,15 @@ export default function App() {
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/*" element={<NotFound />} />
         </Route>
         <Route path="/admin" element={<AdminLayout />}>
           <Route index element={<Dashboard />} />
           <Route path="products" element={<AdminProducts />} />
-          {/* <Route path="stock" element={<StockManagement />} /> */}
-          {/* <Route path="sales" element={<SalesReports />} /> */}
+          <Route path="stock" element={<StockManagement />} />
+          <Route path="sales" element={<SalesReports />} />
         </Route>
       </Routes>
     </>
-  )
+  );
 }
