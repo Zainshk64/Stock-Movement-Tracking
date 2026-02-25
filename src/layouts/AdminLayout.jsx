@@ -7,8 +7,8 @@ import {
 } from 'react-icons/fi'
 
 const navItems = [
-  { to: '/admin', label: 'Dashboard', icon: <FiGrid />, end: true },
-  { to: '/admin/products', label: 'Products', icon: <FiBox /> },
+  // { to: '/admin', label: 'Dashboard', icon: <FiGrid />, end: true },
+  { to: '/admin', label: 'Products', icon: <FiBox />  ,end:true},
   { to: '/admin/stock', label: 'Stock', icon: <FiTruck /> },
   { to: '/admin/sales', label: 'Sales', icon: <FiBarChart2 /> },
 ]

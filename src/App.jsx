@@ -10,7 +10,6 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import Contact from "./pages/Contact";
-import Auth from "./pages/Auth";
 
 import Dashboard from "./pages/admin/Dashboard";
 import AdminProducts from "./pages/admin/AdminProducts";
@@ -21,6 +20,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./pages/NotFound";
 import StockManagement from "./pages/admin/StockManagement";
 import SalesReports from "./pages/admin/SalesReports";
+import { AuthProvider } from "./context/AuthContext";
+import AuthRoot from "./pages/auth/AuthRoot";
 
 export default function App() {
   // useEffect(() => {
@@ -40,23 +41,25 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      <Routes>
-        <Route element={<MainLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<ProductDetail />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/auth" element={<Auth />} />
-          <Route path="/*" element={<NotFound />} />
-        </Route>
-        <Route path="/admin" element={<AdminLayout />}>
-          <Route index element={<Dashboard />} />
-          <Route path="products" element={<AdminProducts />} />
-          <Route path="stock" element={<StockManagement />} />
-          <Route path="sales" element={<SalesReports />} />
-        </Route>
-      </Routes>
+      <AuthProvider>
+        <Routes>
+          <Route element={<MainLayout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/products/:id" element={<ProductDetail />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/auth" element={<AuthRoot />} />
+            <Route path="/*" element={<NotFound />} />
+          </Route>
+          <Route path="/admin" element={<AdminLayout />}>
+            {/* <Route index element={<Dashboard />} /> */}
+            <Route index element={<AdminProducts />} />
+            <Route path="stock" element={<StockManagement />} />
+            <Route path="sales" element={<SalesReports />} />
+          </Route>
+        </Routes>
+      </AuthProvider>
     </>
   );
 }

@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* ─── Featured Products ─── */}
-      <section className="py-20 lg:py-28 bg-surface">
+      {/* <section className="py-20 lg:py-28 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-14 gap-4">
@@ -154,7 +154,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ─── Stats ─── */}
       <section className="py-20 lg:py-28 bg-gradient-to-r from-primary-dark to-primary relative overflow-hidden">
