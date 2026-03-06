@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://vercel.com/zainshk64s-projects/stock-movement-tracking-backend-483a/4RKk7ws7QZAvQ13eQESBfWjNfsua/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://stock-movement-tracking-backend-483.vercel.app/api';
 
 // Create axios instance
 const api = axios.create({
