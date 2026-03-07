@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://stock-movement-tracking-backend-483.vercel.app/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://mbl-backend.vercel.app/api';
+// https://mbl-backend.vercel.app/
 
 // Create axios instance
 const api = axios.create({
